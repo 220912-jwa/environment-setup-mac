@@ -25,7 +25,8 @@ To verify that Git is installed on your system, type <code>git --version</code>
 
 ## Step 3: Install JDK 11
 
-I suggest installing java manually by following the instructions [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE) on Oracle's website 
+I suggest installing java manually by following the instructions [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE) on Oracle's website.  
+
 These steps may also work if you want to try through the command line: https://mkyong.com/java/how-to-install-java-on-mac-osx/
 
 
