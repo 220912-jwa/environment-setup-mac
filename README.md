@@ -23,18 +23,10 @@ With Homebrew installed, you are now ready to install Git. Open a terminal windo
 
 To verify that Git is installed on your system, type <code>git --version</code>
 
-## Step 3: Install JDK 8
+## Step 3: Install JDK 11
 
-Run the following commands in your terminal:
-```code
-brew untap adoptopenjdk/openjdk
-brew untap caskroom/versions
-brew cleanup
-```
-
-Once <code>cleanup</code> is finished, type the following command into the terminal:
-
-<code>brew cask install adoptopenjdk/openjdk/adoptopenjdk8</code>
+I suggest installing java manually by following the instructions [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE) on Oracle's website 
+These steps may also work if you want to try through the command line: https://mkyong.com/java/how-to-install-java-on-mac-osx/
 
 
 ### Configure your Environment Variables
@@ -67,11 +59,9 @@ $ echo $JAVA_HOME
 ```
 
 
-## Step 4:  Install IntelliJ IDEA
+## Step 4:  Install Eclipse IDE
 
-1. Navigate to the [JetBrains Installation Guide](https://www.jetbrains.com/help/idea/installation-guide.html) page and install IntelliJ using the Toolbox App. The latest stable release is fine for our purposes (2021.2) The community edition is free, you do not need Ultimate! Follow the installation wizard's steps. 
-
-<img src="./images/intellij-start.png">  
+1. Navigate to the [Eclipse Installer](https://www.eclipse.org/downloads/packages/installer) page and follow the instructions there for installing Eclipse IDE for Java EE Developers.
 
 ## Step 5: Install Maven
 
@@ -85,21 +75,18 @@ Navigate to https://dbeaver.io/download/ and download the appropriate version of
 
 If your installation was successful, you should now be able to search for "dbeaver" in your spotlight with <code>cmd + space</code>.
 
-## Step 7: Install Apache Tomcat 9
-Follow these [instructions](https://medium.com/@jeongwhanchoi/how-to-install-apache-tomcat-on-mac-os-x-605b1cb55252). Make sure to install the latest version of Tomcat 9. 
-
-## Step 8: Install Postman
+## Step 7: Install Postman
 
 The following is the single command required to install Postman on macOS using Homebrew:
 
 <code>brew cask install postman</code>
 
-## Step 9: Install Visual Studio Code
+## Step 8: Install Visual Studio Code
 
 The following is the single command required to install Visual Studio Code on macOS using Homebrew:
 
 <code>brew cask install visual-studio-code</code>
 
-If you encounter problems and unable to install any of these applications with homebrew, refer to the manual download section of the [Environment Setup Guide](https://github.com/210614-JavaFS/Enviroment-Setup) to install it manually instead. 
+If you encounter problems and unable to install any of these applications with homebrew, refer to the manual download section of the [Environment Setup Guide](https://github.com/220531-jwa/environment-setup-windows) to install it manually instead. 
 
 
