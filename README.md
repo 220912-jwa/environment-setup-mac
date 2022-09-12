@@ -59,10 +59,11 @@ $ echo $JAVA_HOME
 /System/Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home
 ```
 
+## Step 4:  Install IntelliJ IDEA
 
-## Step 4:  Install Eclipse IDE
+1. Navigate to the [JetBrains Installation Guide](https://www.jetbrains.com/help/idea/installation-guide.html) page and install IntelliJ using the Toolbox App. The latest stable release is fine for our purposes (2021.2) The community edition is free, you do not need Ultimate! Follow the installation wizard's steps. 
 
-1. Navigate to the [Eclipse Installer](https://www.eclipse.org/downloads/packages/installer) page and follow the instructions there for installing Eclipse IDE for Java EE Developers.
+<img src="./images/intellij-start.png">  
 
 ## Step 5: Install Maven
 
